@@ -1,0 +1,24 @@
+{
+  "name": "three_js_test_task",
+  "version": "1.0.0",
+  "description": "Test task: A user should to see 30 cubes on scene with random position and rotation. When a user will click on any cube it should destroy the cube. When all cubes are destroyed, whole web page should be reloaded.",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "Yurii Panazdyr <panazdur@ukr.net>",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "three": "^0.103.0",
+    "three-trackballcontrols": "0.0.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
